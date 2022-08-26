@@ -1,0 +1,12 @@
+{
+ "rules": {
+    "@typescript-eslint/explicit-function-return-type": "error"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ]
+}
